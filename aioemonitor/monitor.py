@@ -1,6 +1,6 @@
 """Monitor for aioemonitor."""
 
-DEFAULT_REQUEST_TIMEOUT = 30
+DEFAULT_REQUEST_TIMEOUT = 55
 STATUS_ENDPOINT = "/status.xml"
 
 import re
