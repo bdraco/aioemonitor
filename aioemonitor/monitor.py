@@ -58,7 +58,7 @@ class Emonitor:
             timeout=self._timeout,
             params=params,
         )
-        return await response.text()
+        return await response.text("utf-8")
 
     async def async_get_status(self):
         """Call api to get latest status."""
