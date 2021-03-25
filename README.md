@@ -10,16 +10,23 @@ Asyncio Python lib for SiteSage Emonitor
 
 ## Features
 
--   Store values and retain the prior value in memory
--   ... some other functionality
+-   Retreive emonitor power status
 
 ## Quick Start
 
 ```python
-from aioemonitor import Example
+import asyncio
+import pprint
+from aioemonitor import Emonitor
+from aiohttp import ClientSession
 
-a = Example()
-a.get_value()  # 10
+async def run():
+    session = ClientSession()
+    emonitor = Emonitor("1.2.3.4", session)
+    status = await emonitor.async_get_status()
+    pprint.pprint(status)
+
+asyncio.run(run())
 ```
 
 ## Installation
