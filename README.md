@@ -10,7 +10,7 @@ Asyncio Python lib for SiteSage Emonitor
 
 ## Features
 
--   Retreive emonitor power status
+-   Retrieve emonitor power status
 
 ## Quick Start
 
