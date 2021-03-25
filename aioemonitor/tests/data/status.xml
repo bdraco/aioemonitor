@@ -1,0 +1,650 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<emonitor>
+ <hardware>
+  <serial_number>1234</serial_number>
+  <TLA_number>W�{�8�5f��*ʁ@2021/03/24 15:12</TLA_number>
+  <TLA_revision>5</TLA_revision>
+  <firmware_version>16513</firmware_version>
+  <network>
+   <MAC_address>1190C2111111</MAC_address>
+   <IP_address>192.168.1.2</IP_address>
+  </network>
+ </hardware>
+
+ <channels>
+
+ 
+
+  <channel Number="1">
+   <active>1</active>
+   <label>Main</label>
+   <CT_size>150</CT_size>
+   <paired_with_channel>2</paired_with_channel>
+   <input>1</input>
+   <max_power>69</max_power>
+   <avg_power>29</avg_power>
+   <inst_power>25</inst_power>
+  </channel>
+
+
+
+  <channel Number="2">
+   <active>1</active>
+   <label>Main</label>
+   <CT_size>150</CT_size>
+   <paired_with_channel>1</paired_with_channel>
+   <input>1</input>
+   <max_power>303</max_power>
+   <avg_power>198</avg_power>
+   <inst_power>246</inst_power>
+  </channel>
+
+
+
+  <channel Number="3">
+   <active>1</active>
+   <label>Pool Panel</label>
+   <CT_size>50</CT_size>
+   <paired_with_channel>4</paired_with_channel>
+   <input>0</input>
+   <max_power>456</max_power>
+   <avg_power>452</avg_power>
+   <inst_power>454</inst_power>
+  </channel>
+
+
+
+  <channel Number="4">
+   <active>1</active>
+   <label>Pool Panel</label>
+   <CT_size>50</CT_size>
+   <paired_with_channel>3</paired_with_channel>
+   <input>0</input>
+   <max_power>466</max_power>
+   <avg_power>459</avg_power>
+   <inst_power>462</inst_power>
+  </channel>
+
+
+
+  <channel Number="5">
+   <active>1</active>
+   <label>Outside Lanai Outlet</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>3</max_power>
+   <avg_power>2</avg_power>
+   <inst_power>3</inst_power>
+  </channel>
+
+
+
+  <channel Number="6">
+   <active>1</active>
+   <label>Kitchen Island</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="7">
+   <active>1</active>
+   <label>Bar / Column Plug</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>1</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="8">
+   <active>1</active>
+   <label>Bar</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="9">
+   <active>1</active>
+   <label>Dining Area Fans</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>6</max_power>
+   <avg_power>5</avg_power>
+   <inst_power>6</inst_power>
+  </channel>
+
+
+
+  <channel Number="10">
+   <active>1</active>
+   <label>Disposal</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="11">
+   <active>1</active>
+   <label>Kitchen Dishwasher a</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="12">
+   <active>1</active>
+   <label>Upstairs Office Ligh</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>72</max_power>
+   <avg_power>59</avg_power>
+   <inst_power>58</inst_power>
+  </channel>
+
+
+
+  <channel Number="13">
+   <active>1</active>
+   <label>Bed Room Plugs</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>8</max_power>
+   <avg_power>6</avg_power>
+   <inst_power>7</inst_power>
+  </channel>
+
+
+
+  <channel Number="14">
+   <active>1</active>
+   <label>Water Heater</label>
+   <CT_size>50</CT_size>
+   <paired_with_channel>15</paired_with_channel>
+   <input>0</input>
+   <max_power>1</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="15">
+   <active>1</active>
+   <label>Water Heater</label>
+   <CT_size>50</CT_size>
+   <paired_with_channel>14</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="16">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>50</CT_size>
+   <paired_with_channel>17</paired_with_channel>
+   <input>0</input>
+   <max_power>1</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="17">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>50</CT_size>
+   <paired_with_channel>16</paired_with_channel>
+   <input>0</input>
+   <max_power>2</max_power>
+   <avg_power>1</avg_power>
+   <inst_power>1</inst_power>
+  </channel>
+
+
+
+  <channel Number="18">
+   <active>1</active>
+   <label>Garden Lights / East</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>8</max_power>
+   <avg_power>7</avg_power>
+   <inst_power>7</inst_power>
+  </channel>
+
+
+
+  <channel Number="19">
+   <active>1</active>
+   <label>Garage / Laundry Lig</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>3</max_power>
+   <avg_power>2</avg_power>
+   <inst_power>2</inst_power>
+  </channel>
+
+
+
+  <channel Number="20">
+   <active>1</active>
+   <label>Ohana Micro / Toast</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>28</max_power>
+   <avg_power>15</avg_power>
+   <inst_power>12</inst_power>
+  </channel>
+
+
+
+  <channel Number="21">
+   <active>1</active>
+   <label>Ohana Fridge</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>86</max_power>
+   <avg_power>82</avg_power>
+   <inst_power>82</inst_power>
+  </channel>
+
+
+
+  <channel Number="22">
+   <active>1</active>
+   <label>Master Lights</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>2</max_power>
+   <avg_power>1</avg_power>
+   <inst_power>2</inst_power>
+  </channel>
+
+
+
+  <channel Number="23">
+   <active>1</active>
+   <label>Master Fan / Plugs</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>50</max_power>
+   <avg_power>42</avg_power>
+   <inst_power>45</inst_power>
+  </channel>
+
+
+
+  <channel Number="24">
+   <active>1</active>
+   <label>Washer</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="25">
+   <active>1</active>
+   <label>Dryer</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="26">
+   <active>1</active>
+   <label>Washer / Dryer</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>3</max_power>
+   <avg_power>2</avg_power>
+   <inst_power>2</inst_power>
+  </channel>
+
+
+
+  <channel Number="27">
+   <active>1</active>
+   <label>Solar Hot Water and </label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>149</max_power>
+   <avg_power>56</avg_power>
+   <inst_power>96</inst_power>
+  </channel>
+
+
+
+  <channel Number="28">
+   <active>1</active>
+   <label>Bench Plugs</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="29">
+   <active>1</active>
+   <label>Ohana Fans</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>19</max_power>
+   <avg_power>18</avg_power>
+   <inst_power>19</inst_power>
+  </channel>
+
+
+
+  <channel Number="30">
+   <active>1</active>
+   <label>Ohana Lights</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>94</max_power>
+   <avg_power>86</avg_power>
+   <inst_power>88</inst_power>
+  </channel>
+
+
+
+  <channel Number="31">
+   <active>1</active>
+   <label>Garage / Outside / S</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>24</max_power>
+   <avg_power>22</avg_power>
+   <inst_power>23</inst_power>
+  </channel>
+
+
+
+  <channel Number="32">
+   <active>1</active>
+   <label>Stair Lights</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>5</max_power>
+   <avg_power>4</avg_power>
+   <inst_power>5</inst_power>
+  </channel>
+
+
+
+  <channel Number="33">
+   <active>1</active>
+   <label>Family Room / Wifi</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>7</max_power>
+   <avg_power>4</avg_power>
+   <inst_power>5</inst_power>
+  </channel>
+
+
+
+  <channel Number="34">
+   <active>1</active>
+   <label>Upstairs Bath</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>12</max_power>
+   <avg_power>11</avg_power>
+   <inst_power>11</inst_power>
+  </channel>
+
+
+
+  <channel Number="35">
+   <active>1</active>
+   <label>Whole House Fan / Li</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>10</max_power>
+   <avg_power>9</avg_power>
+   <inst_power>9</inst_power>
+  </channel>
+
+
+
+  <channel Number="36">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>150</CT_size>
+   <paired_with_channel>37</paired_with_channel>
+   <input>0</input>
+   <max_power>297</max_power>
+   <avg_power>286</avg_power>
+   <inst_power>292</inst_power>
+  </channel>
+
+
+
+  <channel Number="37">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>150</CT_size>
+   <paired_with_channel>36</paired_with_channel>
+   <input>0</input>
+   <max_power>25</max_power>
+   <avg_power>20</avg_power>
+   <inst_power>18</inst_power>
+  </channel>
+
+
+
+  <channel Number="38">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>150</CT_size>
+   <paired_with_channel>39</paired_with_channel>
+   <input>0</input>
+   <max_power>819</max_power>
+   <avg_power>807</avg_power>
+   <inst_power>804</inst_power>
+  </channel>
+
+
+
+  <channel Number="39">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>150</CT_size>
+   <paired_with_channel>38</paired_with_channel>
+   <input>0</input>
+   <max_power>996</max_power>
+   <avg_power>979</avg_power>
+   <inst_power>931</inst_power>
+  </channel>
+
+
+
+  <channel Number="40">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="41">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="42">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="43">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="44">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="45">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="46">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="47">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+  <channel Number="48">
+   <active>0</active>
+   <label>Unused</label>
+   <CT_size>20</CT_size>
+   <paired_with_channel>0</paired_with_channel>
+   <input>0</input>
+   <max_power>0</max_power>
+   <avg_power>0</avg_power>
+   <inst_power>0</inst_power>
+  </channel>
+
+
+
+</channels>
+</emonitor>
+
+
+
+
+

@@ -13,6 +13,7 @@ setup_requirements = [
 ]
 
 test_requirements = [
+    "pytest-asyncio",
     "black>=19.10b0",
     "codecov>=2.1.4",
     "flake8>=3.8.3",
@@ -20,6 +21,7 @@ test_requirements = [
     "pytest>=5.4.3",
     "pytest-cov>=2.9.0",
     "pytest-raises>=0.11",
+    "aioresponses",
 ]
 
 dev_requirements = [
@@ -37,7 +39,7 @@ dev_requirements = [
     "wheel>=0.34.2",
 ]
 
-requirements = []
+requirements = ["xmltodict>=0.12.0", "aiohttp>=3.7.0"]
 
 extra_requirements = {
     "setup": setup_requirements,
@@ -46,7 +48,7 @@ extra_requirements = {
     "all": [
         *requirements,
         *dev_requirements,
-    ]
+    ],
 }
 
 setup(
@@ -63,9 +65,7 @@ setup(
     ],
     description="Asyncio Python lib for SiteSage Emonitor",
     entry_points={
-        "console_scripts": [
-            "my_example=aioemonitor.bin.my_example:main"
-        ],
+        "console_scripts": ["my_example=aioemonitor.bin.my_example:main"],
     },
     install_requires=requirements,
     license="Apache Software License 2.0",
