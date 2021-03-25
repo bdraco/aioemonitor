@@ -1,0 +1,7 @@
+aioemonitor
+===========
+
+.. toctree::
+   :maxdepth: 4
+
+   aioemonitor
