@@ -83,6 +83,6 @@ setup(
     url="https://github.com/bdraco/aioemonitor",
     # Do not edit this string manually, always use bumpversion
     # Details in CONTRIBUTING.rst
-    version="1.0.4",
+    version="1.0.5",
     zip_safe=False,
 )
