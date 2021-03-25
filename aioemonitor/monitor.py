@@ -15,7 +15,7 @@ class EmonitorChannel:
     active: int
     label: str
     ct_size: int
-    paried_with_channel: int
+    paired_with_channel: int
     input: int
     max_power: float
     avg_power: float

@@ -33,7 +33,7 @@ async def test_async_get_status():
         assert channel_one.active is True
         assert channel_one.label == "Main"
         assert channel_one.ct_size == 150
-        assert channel_one.paried_with_channel == 2
+        assert channel_one.paired_with_channel == 2
         assert channel_one.input == 1
         assert channel_one.max_power == 69.0
         assert channel_one.avg_power == 29.0
